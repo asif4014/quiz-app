@@ -5,6 +5,7 @@ This quiz app is based upon Angular. In this you can give quiz on topics such as
 3.	Quiz Component – It is responsible for the overall quiz app.
 4.	Contact Us Component – It is feedback form which is made by using Angular forms.
 5.	Footer Component – It is for the bottom navbar.
+
 Angular services are used for the questions and routing module is also used for proper routing. There is model class also which is sending user data to console.
 
 How to run??

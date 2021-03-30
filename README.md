@@ -10,4 +10,4 @@ Angular services are used for the questions and routing module is also used for 
 
 How to run??
 
-Clone this repo or doownload it. Then go to the project folder and write npm install command. This is download all the node modules file which are required to run this project.
+Clone this repo or doownload it. Then go to the project folder and write npm install command. This command will download all the node modules file which are required to run this project.

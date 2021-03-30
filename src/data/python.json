@@ -1,0 +1,187 @@
+{
+    "id": 1,
+    "name": "Python Language Quiz",
+    "description": "Python Quiz (Basic Multiple Choice Questions for Python Developers)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "What is a correct syntax to output 'Hello World' in Python?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "print('Hello World')",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "echo('Hello World')",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "p('Hello World')",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "echo 'Hello World'",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "What is the correct file extension for Python files?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1011,
+                    "name": ".pt",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1011,
+                    "name": ".pyt",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1011,
+                    "name": ".py",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1011,
+                    "name": ".pyth",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Who developed the Python language?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1012,
+                    "name": "Zim Den",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1012,
+                    "name": "Guido van Rossum",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1012,
+                    "name": "Niene Stom",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1012,
+                    "name": "Wick van Rossum",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "In which language is Python written?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1013,
+                    "name": "English",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1013,
+                    "name": "C",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1013,
+                    "name": "Java",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1013,
+                    "name": "All of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "What is the method inside the class in python language?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1014,
+                    "name": "Object",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1014,
+                    "name": "Function",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1014,
+                    "name": "Argument",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1014,
+                    "name": "Attribute",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-6 col-md-offset-4">
+            <div class="well well-sm">
+                <form class="form-horizontal" action="" method="post" #userForm="ngForm" (ngSubmit)="onSubmit()"
+                    novalidate>
+
+                    <fieldset>
+                        <legend class="text middle">Contact Us</legend>
+
+                        <!-- {{ userForm.value | json }}
+                        <hr>
+                        {{ feedbackModel | json }} -->
+
+                        <!-- {{ userForm.form.valid }} -->
+
+                        <!-- Name input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="name">Name</label>
+                            <div class="col-md-9">
+                                <input id="name" name="name" type="text" required #name="ngModel"
+                                    [class.is-invalid]="name.invalid && name.touched" placeholder="Your name"
+                                    class="form-control" [(ngModel)]="feedbackModel.name">
+                                <small class="text-danger" [class.d-none]="name.valid || name.untouched"> Name is
+                                    required</small>
+                            </div>
+                        </div>
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                            <div class="col-md-9">
+                                <input id="email" name="email" type="text" required #email="ngModel"
+                                    [class.is-invalid]="email.invalid && email.touched" placeholder="Your email"
+                                    class="form-control" [(ngModel)]="feedbackModel.email">
+
+                                <small class="text-danger" [class.d-none]="email.valid || email.untouched"> Email Id is
+                                    required</small>
+                            </div>
+
+                        </div>
+
+                        <!-- Message body -->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="message">Your message</label>
+                            <div class="col-md-9">
+                                <textarea class="form-control" id="message" name="message" required #message="ngModel"
+                                    placeholder="Please enter your message here..." rows="5"
+                                    [(ngModel)]="feedbackModel.message"></textarea>
+                                <small class="text-danger" [class.d-none]="message.valid || message.untouched"> Message
+                                    is
+                                    required</small>
+                            </div>
+                        </div>
+
+                        <!-- Form actions -->
+                        <div class="form-group">
+                            <div class="col-md-12 middle">
+                                <button [disabled]="userForm.form.invalid" type="submit"
+                                    class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<app-footer></app-footer>

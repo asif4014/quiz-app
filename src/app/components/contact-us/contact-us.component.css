@@ -1,0 +1,13 @@
+body {padding-top:20px;}
+
+.container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    margin-left:25%;
+}
+.text{
+    padding-top: 20px;
+}

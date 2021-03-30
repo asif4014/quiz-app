@@ -1,0 +1,187 @@
+{
+    "id": 1,
+    "name": "C Language Quiz",
+    "description": "C Quiz (Basic Multiple Choice Questions for C Developers)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "What is the built in library function to adjust the allocated dynamic memory size.",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "malloc",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "calloc",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "realloc",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "resize",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "What is the correct file extension for C files?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1011,
+                    "name": ".c",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1011,
+                    "name": ".cpp",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1011,
+                    "name": ".see",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1011,
+                    "name": ".cee",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "What is a lint?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1012,
+                    "name": "C compiler",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1012,
+                    "name": "Interactive debugger",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1012,
+                    "name": "Analyzing tool",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1012,
+                    "name": "C Interpreter",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": " Which one of the following is a loop construct that will always be executed once?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1013,
+                    "name": "for",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1013,
+                    "name": "while",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1013,
+                    "name": "do while",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1013,
+                    "name": "switch",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Directives are translated by the",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1013,
+                    "name": "Pre-processor",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1013,
+                    "name": "Compiler",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1013,
+                    "name": "Linker",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1013,
+                    "name": "Loader",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+ body {
+    overflow: hidden;
+} 
+.body::-webkit-scrollbar {
+    display: none;
+  }
+.box-r{
+    /* background-image: url("assets/images/transbg.jpg"); */
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding: 20px 20px 0 20px;
+}
+
+.homeimg{
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
